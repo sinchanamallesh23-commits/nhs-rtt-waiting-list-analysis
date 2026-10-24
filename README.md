@@ -49,3 +49,13 @@ KPI cards, specialty performance against the 65% target, NHS vs independent sect
 - Trust comparisons include NHS trusts with 10,000+ patients waiting, to avoid small providers distorting rankings.
 - Provider type is derived from organisation codes (NHS trust codes begin with R or T).
 - The waiting list is a snapshot, so figures are always reported per month, never summed across months.
+
+## Limitations
+
+- Two months only (start and end of the year), so the trend within the year isn't shown.
+- Totals cover reporting providers only and may differ slightly from NHS England's headline figures, which include estimates for non-reporting trusts.
+- No case-mix or clinical priority data, so differences between providers can't be fully explained.
+
+## Tools
+
+Python (pandas, matplotlib) · SQL (SQLite) · Power BI (DAX) · Jupyter Notebook · Git/GitHub
